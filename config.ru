@@ -1,2 +1,2 @@
-require './amiworkingforgithubnow'
+require './app/tinisculusapp'
 run Sinatra::Application
