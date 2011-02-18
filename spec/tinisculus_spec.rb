@@ -11,7 +11,7 @@ describe Tinisculus do
   describe "get /" do
     it 'redirect to /challenge/1' do
       get '/'
-      assert {last_response.location == 'challenge/1'}
+      assert {last_response.location == 'http://example.org/challenge/1'}
     end
   end
 end

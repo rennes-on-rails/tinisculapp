@@ -9,8 +9,8 @@ class Tinisculus < Sinatra::Base
   set :root, File.dirname(__FILE__)
 
   get '/' do
-    haml :index
-  end  
+    redirect '/challenge/1'
+  end
 end
 
 # post '/working' do
