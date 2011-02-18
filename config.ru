@@ -1,2 +1,2 @@
-require './app/tinisculusapp'
+require './app/tinisculus'
 run Sinatra::Application
