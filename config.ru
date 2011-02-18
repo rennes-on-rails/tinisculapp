@@ -1,2 +1,2 @@
 require './app/tinisculus'
-run Sinatra::Application
+run Tinisculus

@@ -1,12 +1,16 @@
 require 'rubygems'
-require 'sinatra'
+require 'sinatra/base'
 require 'haml'
 
-mime_type :ttf, "application/octet-stream"
-mime_type :woff, "application/octet-stream"
+class Tinisculus < Sinatra::Base
+  mime_type :ttf, "application/octet-stream"
+  mime_type :woff, "application/octet-stream"
+  
+  set :root, File.dirname(__FILE__)
 
-get '/' do
-  haml :index
+  get '/' do
+    haml :index
+  end  
 end
 
 # post '/working' do
