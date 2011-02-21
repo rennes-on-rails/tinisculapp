@@ -1,0 +1,8 @@
+%h1 Congratulations to have reached this point !
+%h3
+  %a{:href => "#{@question.instructions}"}
+    Instructions for Challenge ##{@question.id}
+%form{:action => "/challenge/#{@question.id}", :method => "post"}
+  %label{:for => "answer"} Answer
+  %input#handle{:name => "answer", :type => "text"}/
+  %input{:name => "submit", :type => "submit", :value => "Answer !"}/
