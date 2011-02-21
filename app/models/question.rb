@@ -75,7 +75,9 @@ module Minisculus
       URIS = {
         '1' => '14f7ca5f6ff1a5afb9032aa5e533ad95',
         '2' => '2077f244def8a70e5ea758bd8352fcd8', 
-        '3' => '36d80eb0c50b49a509b49f2424e8c805'
+        '3' => '36d80eb0c50b49a509b49f2424e8c805',
+        '4' => '4baecf8ca3f98dc13eeecbac263cd3ed',
+        '5' => 'finish/50763edaa9d9bd2a9516280e9044d885'
       }
       def find(id)
         (uri = URIS[id.to_s]) ? Question.new(:id => id, :uri => uri) : nil
