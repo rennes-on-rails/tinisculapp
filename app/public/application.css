@@ -1,9 +1,6 @@
 @font-face {
     font-family: 'InterstateRegular';
-    src: url('interstate-regular-webfont.eot?') format('eot'),
-         url('interstate-regular-webfont.woff') format('woff'),
-         url('interstate-regular-webfont.ttf') format('truetype'),
-         url('interstate-regular-webfont.svg#webfontjeQgvMIS') format('svg');
+    src: url('fonts/interstate-regular-webfont.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }

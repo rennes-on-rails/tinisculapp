@@ -2,15 +2,7 @@
 %html
   %head
     %title Will you complete the Tinisculus Challenge ?
-    %link{:href => "/application.css", :rel => "stylesheet", :type => "text/css"}/
+    %link{:href => "/stylesheets/minisculus.css", :rel => "stylesheet", :type => "text/css"}/
   %body
-    = yield
-    %p.footer
-      Thanks to Eden Development, for having crafted 
-      %a{:href => "http://minisculus.edendevelopment.co.uk/"} Minisculus challenge
-      %br
-      Kudos to
-      %a{:href => 'http://amiworkingforgithubnow.com/'} amiworkingforgithubnow
-      for graphism
-
-    
+    #bodyContent
+      = yield

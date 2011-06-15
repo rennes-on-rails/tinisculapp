@@ -1,0 +1,43 @@
+@font-face {
+	font-family: FortyTwoWebFont;
+	src: url('/fonts/1942-webfont.ttf');
+}
+
+body {
+	background-image: url('/images/header_background.png');
+	background-repeat: no-repeat;
+	background-color: #1b1b27;
+	color: #ffffff;
+	font-family: Courier, monospace;
+}
+
+h1, h2, h3 {
+	font-family: FortyTwoWebFont, Courier, monospace;
+	color: #767791;
+	margin-top: 0;
+	margin-bottom: 0;
+	line-height: .75em;
+}
+h1 { font-size: 3.8em; }
+h2 { font-size: 2em; }
+
+p, li, span, a, a:hover, a:link, a:visited {
+	color: #ffffff;
+}
+
+#bodyContent {
+	position: absolute;
+	top: 245px;
+	left: 72px;
+	width: 534px;
+}
+
+.footer {
+	font-size: .8em;
+	margin-top: 3em;
+	margin-bottom: 2em;
+}
+
+.footer p, .footer a, .footer a:hover, .footer a:link, .footer a:visited {
+	color: #AAAAAA;
+}
